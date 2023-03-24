@@ -27,7 +27,7 @@ class SeasonDeterminerTest extends BaseIOTest {
     void tellTheSeasonPrintsSummerWhenJune() {
         SeasonDeterminer determiner = new SeasonDeterminer();
 
-        determiner.tellTheSeason(6);
+        determiner.tellTheSeason(7);
 
         assertOutEquals("Summer\n");
     }
